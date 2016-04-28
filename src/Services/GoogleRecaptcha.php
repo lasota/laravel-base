@@ -12,7 +12,7 @@ class GoogleRecaptcha
 {
     public static function verify($input)
     {
-	//YOYOYOYO
+	//test in remote
 
         if ( env('RECAPTCHA_SKIP') ) {
             return true;
