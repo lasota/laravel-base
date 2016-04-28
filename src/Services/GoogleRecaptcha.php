@@ -12,6 +12,8 @@ class GoogleRecaptcha
 {
     public static function verify($input)
     {
+	//YOYOYOYO
+
         if ( env('RECAPTCHA_SKIP') ) {
             return true;
         }
