@@ -1,0 +1,22 @@
+{
+    "name": "lasota/laravel-base",
+    "description": "Base functionality we use in all Laravel sites.",
+    "require": {
+        "guzzle/guzzle": "^3.9"
+    },
+    "authors": [
+        {
+            "name": "Matt Crowe",
+            "email": "matthew.p.crowe@gmail.com"
+        },
+        {
+            "name": "Rob LaSota",
+            "email": "rob.lasota@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LaSota\\LaravelBase\\": "src/"
+        }
+    }
+}
